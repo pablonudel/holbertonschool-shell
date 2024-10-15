@@ -1,0 +1,2 @@
+#!/bin/bash
+echo -e "javascript\nperl\npython\njava\njavascript\njava\nhtml\ncss" | sort -d | uniq
