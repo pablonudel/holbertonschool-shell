@@ -1,2 +1,2 @@
 #!/bin/bash
-echo -e "javascript\nperl\npython\njava\njavascript\njava\nhtml\ncss" | sort -d | uniq
+cat list_1 | sort --ignore-case | uniq -u
