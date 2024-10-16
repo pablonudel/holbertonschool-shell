@@ -1,2 +1,2 @@
 #!/bin/bash
-count=$(find "$PATH" -mindepth 1 -type d | wc -l) | echo "$count"
+echo $PATH | tr : $''' ''' | grep / | wc -l
